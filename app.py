@@ -634,6 +634,8 @@ def student_dashboard():
                         if file_path:
                             if st.button("👁️ Preview", key=f"preview_{resource_id}"):
                                 st.session_state[f'show_preview_{resource_id}'] = True
+                                st.pdf(file_path)
+                                
                     
                     # Borrowing Modal
                     if st.session_state.get(f'show_borrow_modal_{resource_id}', False):
