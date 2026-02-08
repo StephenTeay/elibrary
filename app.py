@@ -7,7 +7,7 @@ from pathlib import Path
 
 # Page configuration
 st.set_page_config(
-    page_title="FEDERAL SCHOOL OF STATISTICS, IBADAN E-Library",
+    page_title="FSSIB E-Library",
     page_icon="📚",
     layout="wide",
     initial_sidebar_state="expanded"
